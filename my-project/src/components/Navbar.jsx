@@ -35,14 +35,6 @@ const Navbar = () => {
         >
           <SiLeetcode />
         </a>
-        <a
-          href="https://www.codechef.com/users/yagyansh_singh"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="CodeChef"
-        >
-          <SiCodechef />
-        </a>
       </div>
       <div>
         <a

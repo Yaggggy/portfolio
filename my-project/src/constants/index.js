@@ -13,33 +13,33 @@ I enjoy working on collaborative projects, leading initiatives like the MLSA com
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Oct 2023 - Apr 2025 ",
+    role: "Head Of Operations",
+    company: "MLSA MIET",
+    description: `Leading operational strategies, streamlining processes, and overseeing successful implementation of initiatives to enhance the college community's tech-driven projects.`,
+    technologies: ["React", "Postgres", "Python"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
+    year: "Dec 2024 - June 2025",
     role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    company: "IoTTrafic",
+    description: `Designed and developed a smart traffic management system leveraging real-time vehicle detection and automated signal control to reduce congestion.`,
+    technologies: ["Python", "OpenCV", "JavaScript", "Flask"],
   },
+  // {
+  //   year: "2021 - 2022",
+  //   role: "Full Stack Developer",
+  //   company: "Facebook",
+  //   description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+  //   technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+  // },
+  // {
+  //   year: "2020 - 2021",
+  //   role: "Software Engineer",
+  //   company: "Paypal",
+  //   description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
+  //   technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+  // },
 ];
 
 export const PROJECTS = [
@@ -47,29 +47,33 @@ export const PROJECTS = [
     title: "Smart Queue Reduction System",
     image: project1,
     description:
-      "A facial recognition-based queue management system that reduces waiting times and ensures secure authentication.",
-    technologies: ["Python", "OpenCV", "Flask", "SQLite", "React"],
+      "Developed a facial recognition-based queue management system with liveness detection and encrypted local authentication to streamline secure access.",
+    technologies: ["Python", "OpenCV", "Flask", "SQLite", "Fernet"],
+    githubUrl: "https://github.com/Yaggggy/FaceTap",
   },
   {
     title: "Presence",
     image: project2,
     description:
-      "An AI-based attendance system that uses facial recognition to automate and secure attendance tracking.",
-    technologies: ["Python", "Flask", "OpenCV", "React", "SQLite"],
+      "A lightweight and secure employee attendance system that uses real-time geolocation to validate on-site check-ins. Designed for workplaces where physical presence matters, the app ensures users can only mark attendance from authorized locations.",
+    technologies: ["Python", "React", "JavaScript", "Next.Js", "MongoDB"],
+    githubUrl: "https://github.com/Yaggggy/presence",
   },
   {
-    title: "VeriScan",
+    title: "Kissan Buddy",
     image: project3,
     description:
-      "An ID verification system that extracts Aadhaar numbers from uploaded images using OCR for secure authentication.",
-    technologies: ["Python", "Flask", "React", "SQLite", "Tesseract OCR"],
+      "Developed an AI-powered platform for farmers that provides crop and fertilizer recommendations, pest detection via CNN, weather forecasting, and multilingual support using integrated Python and R-based models.",
+    technologies: ["Python", "Kreas", "scit-learn", "Pandas"],
+    githubUrl: "https://github.com/Yaggggy/kissan_buddy",
   },
   {
-    title: "Smart Traffic Light System",
+    title: "Pakki Registry",
     image: project4,
     description:
-      "An AI-powered traffic management system that dynamically adjusts signals based on vehicle density.",
-    technologies: ["Python", "OpenCV", "Flask", "React", "MongoDB"],
+      "Designed a secure and transparent land registry system leveraging blockchain-like data integrity and document verification for tamper-proof property records.",
+    technologies: ["Python", "Solidity", "Flask", "Ethereum", "MongoDB"],
+    githubUrl: "https://github.com/Yaggggy/Pakki_Registry",
   },
   // {
   //   title: "AI-Powered Speed Reading App",

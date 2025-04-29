@@ -1,5 +1,6 @@
 import { PROJECTS } from "../constants"; // Ensure the path is correct
 import { motion } from "framer-motion";
+
 const Projects = () => {
   return (
     <motion.div
@@ -32,7 +33,16 @@ const Projects = () => {
               transition={{ duration: 0.5 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
+              {/* Make the project name clickable */}
+              <a
+                href={project.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h6 className="mb-2 font-semibold text-cyan-500 cursor-pointer">
+                  {project.title}
+                </h6>
+              </a>
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span
@@ -50,5 +60,4 @@ const Projects = () => {
   );
 };
 
-// Export the component at the top or bottom level
 export default Projects;
