@@ -38,7 +38,7 @@ const Navbar = () => {
       </div>
       <div>
         <a
-          href="https://www.dropbox.com/scl/fi/rd937coi4x2xl685i2dy7/Yagyansh_Singh_Deshwal_Resume-1.pdf?rlkey=il1ft7wc6g97p7hpher4gp5p8&st=al9bxnu3&dl=0"
+          href="https://www.dropbox.com/scl/fi/7d4t1kkwujzi18jl28wlv/Yagyans_Singh_Deshwal.pdf?rlkey=g9f04scroixpe8mrnyaw2smvg&st=yrn3dz23&dl=0"
           target="_blank"
           rel="noopener noreferrer"
           className="text-lg font-bold hover:text-gray-600"
