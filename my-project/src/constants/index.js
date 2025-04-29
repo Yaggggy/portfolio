@@ -3,9 +3,13 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I'm a Computer Science student who loves turning ideas into working systems. Whether it's building tools that make things easier, automating what feels slow, or just figuring out how things work under the hood—I'm always up for the challenge. I care about writing clean, thoughtful code and creating things that are actually useful and enjoying the process of getting better every day.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated and curious developer with a strong interest in building reliable, thoughtful, and practical systems. While currently pursuing my degree in Computer Science, I’ve spent the past few years designing and developing full-stack applications that solve real problems — from smart traffic systems to facial recognition-based queue management tools.
+
+I’ve worked with technologies like Python, Flask, SQLite, React, and OpenCV, and I’m always expanding my toolkit as I explore areas like AI, backend development, and embedded systems. My journey into tech started with a simple interest in how systems work, and it’s grown into a drive to create things that are both technically solid and genuinely useful.
+
+I enjoy working on collaborative projects, leading initiatives like the MLSA community at MIET, and constantly learning from every challenge. Outside of coding, you’ll find me experimenting with new tech, thinking about system design, or simplifying complex ideas into working solutions.`;
 
 export const EXPERIENCES = [
   {
@@ -40,37 +44,44 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Smart Queue Reduction System",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A facial recognition-based queue management system that reduces waiting times and ensures secure authentication.",
+    technologies: ["Python", "OpenCV", "Flask", "SQLite", "React"],
   },
   {
-    title: "Task Management App",
+    title: "Presence",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An AI-based attendance system that uses facial recognition to automate and secure attendance tracking.",
+    technologies: ["Python", "Flask", "OpenCV", "React", "SQLite"],
   },
   {
-    title: "Portfolio Website",
+    title: "VeriScan",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "An ID verification system that extracts Aadhaar numbers from uploaded images using OCR for secure authentication.",
+    technologies: ["Python", "Flask", "React", "SQLite", "Tesseract OCR"],
   },
   {
-    title: "Blogging Platform",
+    title: "Smart Traffic Light System",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "An AI-powered traffic management system that dynamically adjusts signals based on vehicle density.",
+    technologies: ["Python", "OpenCV", "Flask", "React", "MongoDB"],
   },
+  // {
+  //   title: "AI-Powered Speed Reading App",
+  //   image: project5,
+  //   description:
+  //     "A web application that extracts text from book images and displays words at a user-controlled speed for faster reading.",
+  //   technologies: ["Python", "Flask", "React", "OCR", "SQLite"],
+  // },
 ];
 
 export const CONTACT = {
   address: "Meerut, Uttar Pradesh, India",
-  phoneNo: "+91 9520664190 ",
-  email: "yagyanshsinghdeshwal@gmil.com",
+  phoneNo: "+91   9520664190 ",
+  email: "yagyanshsinghdeshwal@gmail.com",
 };
